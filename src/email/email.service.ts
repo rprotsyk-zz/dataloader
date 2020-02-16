@@ -9,9 +9,9 @@ import { EmailDto } from './dto/email.dto';
 export class EmailService {
   constructor(@InjectModel('Email') private readonly emailModel: Model<EmailDto>) {}
 
-  async create(createPatientDto: CreateEmailDto): Promise<EmailDto> {
-    const createdPatient= new this.emailModel(createPatientDto);
-    return createdPatient.save();
+  async create(createEmailDto: CreateEmailDto): Promise<EmailDto> {
+    const createdEmail = new this.emailModel(createEmailDto);
+    return createdEmail.save();
   }
 
   async findAll(): Promise<EmailDto[]> {
