@@ -26,7 +26,7 @@
     "@nestjs/platform-express": "^6.10.14",
     "@nestjs/swagger": "^4.2.8",
     "@types/multer-gridfs-storage": "^4.0.0",
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "mongo-gridfs": "^1.1.0",
     "mongodb": "^3.5.3",
     "mongoose": "^5.8.13",
